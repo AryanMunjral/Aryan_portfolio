@@ -4,10 +4,6 @@
 
 A modern, futuristic, recruiter-friendly portfolio website for Aryan Munjral — built with **React + Vite + TypeScript + Tailwind CSS + Framer Motion + Three.js**.
 
-![Aryan Munjral](https://img.shields.io/badge/built--with-React%20%2B%20Vite%20%2B%20TS-2026-blue)
-![Tailwind](https://img.shields.io/badge/styled--with-Tailwind%20CSS-38B2AC?logo=tailwind-css&logoColor=white)
-![Vercel](https://img.shields.io/badge/ready--for-Vercel-000?logo=vercel)
-
 ---
 
 ## ✨ Features
@@ -19,7 +15,7 @@ A modern, futuristic, recruiter-friendly portfolio website for Aryan Munjral —
 - 📊 **Animated scroll progress bar** + back-to-top button
 - ✍️ **Typewriter role rotator** in the hero
 - 📱 **Fully responsive** — mobile, tablet, and desktop
-- 📨 **Working contact form** that delivers messages straight to email (via FormSubmit.co with `mailto:` fallback)
+- 📨 **Working contact form** that delivers messages straight to email
 - 🔍 **SEO-optimized** meta tags + Open Graph
 - ⚡ **Optimized production build** (~393 KB gzipped, single-file inlined)
 
@@ -34,7 +30,6 @@ A modern, futuristic, recruiter-friendly portfolio website for Aryan Munjral —
 | Animation | Framer Motion |
 | 3D | Three.js + @react-three/fiber + @react-three/drei |
 | Icons | lucide-react + custom inline SVGs |
-| Deployment | Vercel (one-click) |
 
 ---
 
@@ -59,48 +54,6 @@ npm run preview
 
 ---
 
-## 🌐 Deploy to Vercel (Recommended)
-
-The fastest way — Vercel auto-detects Vite projects.
-
-### Option A — One-click deploy (5 minutes)
-
-1. Go to **https://vercel.com** and sign in with **GitHub**.
-2. Click **"Add New… → Project"**.
-3. Find **`AryanMunjral/Aryan_portfolio`** in the list and select it.
-4. Vercel auto-detects Vite — **no configuration needed**. Just click **Deploy**.
-5. Wait ~30 seconds. Your site is live at `https://aryan-portfolio.vercel.app`.
-
-### Option B — Vercel CLI (advanced)
-
-```bash#1. Install Vercel CLI
-npm i -g vercel
-
-#2. Login & initialize
-vercel login
-vercel init
-
-#3. Deploy
-vercel --prod
-```
-
-### Custom domain
-Project → **Settings → Domains** → add your domain (e.g. `aryanmunjral.dev`).
-
----
-
-## 📨 Contact Form — One-time Setup
-
-The contact form uses **FormSubmit.co** (free, no API keys, no backend).
-
-> ⚠️ **First submission only:** You'll receive a confirmation email at `aryanmunjral1001@gmail.com`. Click the activation link **once** — after that, every submission is delivered automatically.
-
-- **Receiving email:** `aryanmunjral1001@gmail.com`
-- **Subject format:** `New Portfolio Contact Message - [Subject]`
-- **Fallback:** If FormSubmit is unavailable, the form gracefully falls back to opening the visitor's mail client with a pre-filled `mailto:`.
-
----
-
 ## 📁 Project Structure
 
 ```
@@ -120,7 +73,7 @@ src/
  ├── Projects.tsx
  ├── Achievements.tsx
  ├── Education.tsx
- ├── Contact.tsx             # FormSubmit + mailto fallback
+ ├── Contact.tsx             # Working contact form
  ├── CommandPalette.tsx      # ⌘K search
  ├── LoadingScreen.tsx
  └── BackToTop.tsx
@@ -141,15 +94,3 @@ src/
 ## 📜 License
 
 MIT — ©2026 Aryan Munjral. Built with obsession.
-
----
-
-<p align="center">
-  <a href="https://github.com/AryanMunjral" target="_blank" rel="noreferrer">GitHub</a>
-  ·
-  <a href="https://www.linkedin.com/in/aryan-munjral-986551251/" target="_blank" rel="noreferrer">LinkedIn</a>
-  ·
-  <a href="https://leetcode.com/aryanmunjral" target="_blank" rel="noreferrer">LeetCode</a>
-  ·
-  <a href="mailto:aryanmunjral1001@gmail.com">Email</a>
-</p>
